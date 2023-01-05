@@ -12,3 +12,6 @@ def is_permutation(num, num2):
     else:
         return False
 
+for i in range(100000000):
+    if is_permutation(i, 2*i) and is_permutation(i,3*i) and is_permutation(i,4*i) and is_permutation(i,5*i) and is_permutation(i,6*i):
+        print(i)
